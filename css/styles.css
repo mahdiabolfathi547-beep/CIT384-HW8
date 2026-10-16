@@ -1,0 +1,151 @@
+/* 
+Color Palette:
+Amber: #bd5b00
+Navy Blue: #172554
+Light Gray: #F3F4F6
+Dark Gray: #F3F4F6
+White: #FFFFFF
+*/
+
+/* border box fix */
+html {
+  boxing-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.alegreya-uniquifier {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 600
+}
+
+
+#mahdi-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+
+
+Body{
+  margin:0;
+  color: #374151;
+  background-color: #f3f4f6;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.column-narrow {
+  width: 30%;
+  float: left; 
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70;
+  float: left;
+  min-height: 225px;
+}
+/* Headings use Montserrat */
+h1, h2, h3, h4{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+   
+}
+
+.content-wrap{
+  max-width: 950px; 
+  padding:20px;
+  overflow: hidden;
+}
+
+.content-wrap h1{
+  margin-top: 0;
+}
+
+header h1,h2 {
+  margin: 0;
+}
+
+.content-wrap h2{
+margin-top: 0;
+}
+
+.intro{
+    padding: 60px 10%;
+    color: #FFFFFF;
+    background-color: #172554;
+    text-align: center;
+  
+}
+
+.intro h1{
+      color: #FFFFFF;
+}
+
+.intro h2{
+      color: #C4B5FD;
+}
+
+.work-experience {
+  padding: 50 px 10%;
+  background-color: #FFFFFF;
+
+}
+
+.education {
+  padding: 50px 10%;
+  background-color: #f3f4f6
+}
+
+.edcucation h2 {
+  color: #172554
+}
+
+.volunteer-experience h2 {
+  color: #6C4AB6;
+}
+
+footer {
+  padding: 40px 10%;
+  color: #FFFFFF;
+  background-color: #bd5b00;
+  text-align: center;
+}
+/* change color for text to amber*/
+
+footer h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.contact-links a{
+    margin: 0 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-links a:hover {
+    color: #C4B5FD;
+    text-decoration: underline;
+}
+
+.contact-info {
+  color: white;
+  padding: 10px; 
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contact-info a:hover{
+  text-decoration: underline;
+}
