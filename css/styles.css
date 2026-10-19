@@ -21,6 +21,14 @@ html {
   font-weight: 600
 }
 
+.main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+  background-color: white;
+  padding: 12px;
+}
 
 #mahdi-photo {
   width: 300px;
@@ -29,6 +37,7 @@ html {
 }
 
 .profile-img {
+  width: 250px;
   border-radius: 50%;
 }
 
@@ -40,6 +49,12 @@ Body{
   background-color: #f3f4f6;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
+}
+
+.nav ul {
+  margin: 0;              /*remove default margin */
+  padding: 0;             /* remove default padding */
+  list-style-type: none;   /* removes default bullents */
 }
 
 .column-narrow {
@@ -77,6 +92,16 @@ header h1,h2 {
 
 .content-wrap h2{
 margin-top: 0;
+}
+
+.main-nav a {
+  display: inline-block;
+  margin: 0 12px;
+  color: #d6295b;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
 }
 
 .intro{
@@ -148,4 +173,7 @@ footer h2 {
 
 .contact-info a:hover{
   text-decoration: underline;
+  display: inline-block;
+  padding: 10px;
+  color: #d6295b;
 }
