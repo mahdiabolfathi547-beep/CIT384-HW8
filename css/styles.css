@@ -21,6 +21,11 @@ html {
   font-weight: 600
 }
 
+.contact-section {
+  background: white url(../images/LA_City.jpg) no-repeat;
+  background-size: cover;
+}
+
 .main-nav {
   position: sticky;
   top: 0;
