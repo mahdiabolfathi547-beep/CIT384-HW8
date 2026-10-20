@@ -42,14 +42,7 @@ html {
   border-radius: 50%;
 }
 
-header{
-  background-color: #292b45;
-  background: linear-gradient (135deg, #292b45, #4b2e83);
-  color: gray;
-  border: 6px solid #d6295b; /* pink borde */
- border-radius: 0 0 18px 18px;
-  border-bottom: 10px solid #7b2cbf; /* purple bottom border */
-}
+
 .profile-img {
   width: 250px;
   border-radius: 50%;
