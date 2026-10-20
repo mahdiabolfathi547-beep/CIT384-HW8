@@ -145,16 +145,15 @@ margin-top: 0;
   background-color: #f3f4f6
 }
 
-.education bg{
+.education-bg{
   background:
    linear-gradient (
+  rgba (41, 43, 69, 0.78)
   rgba (41, 43, 69, 0.78),
-  rgba (41, 43, 69, 0.78),
-
-  ),
-    url("../image/LA_City.jpg") center/ cover;
+ ),
+    url("../images/LA_City.jpg") center/ cover;
     color: gray;
-    border-top: 6px solid #6395b;
+    border-top: 6px solid #d6295b;
 }
 
 .edcucation h2 {
