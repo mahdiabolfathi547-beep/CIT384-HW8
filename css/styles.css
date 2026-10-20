@@ -4,7 +4,8 @@ Amber: #bd5b00
 Navy Blue: #172554
 Light Gray: #F3F4F6
 Dark Gray: #F3F4F6
-White: #FFFFFF
+light gray: #f3f4f6
+White: FFFFFF
 */
 
 /* border box fix */
@@ -41,6 +42,14 @@ html {
   border-radius: 50%;
 }
 
+header{
+  background-color: #292b45;
+  background: linear-gradient (135deg, #292b45, #4b2e83);
+  color: gray;
+  border: 6px solid #d6295b; /* pink borde */
+ border-radius: 0 0 18px 18px;
+  border-bottom: 10px solid #7b2cbf; /* purple bottom border */
+}
 .profile-img {
   width: 250px;
   border-radius: 50%;
@@ -51,7 +60,7 @@ html {
 Body{
   margin:0;
   color: #374151;
-  background-color: #d6295b;
+  background-color: #f3f4f6;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
 }
@@ -134,6 +143,18 @@ margin-top: 0;
 .education {
   padding: 50px 10%;
   background-color: #f3f4f6
+}
+
+.education bg{
+  background:
+   linear-gradient (
+  rgba (41, 43, 69, 0.78),
+  rgba (41, 43, 69, 0.78),
+
+  ),
+    url("../image/LA_City.jpg") center/ cover;
+    color: gray;
+    border-top: 6px solid #6395b;
 }
 
 .edcucation h2 {
