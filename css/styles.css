@@ -19,10 +19,8 @@ html {
 }
 
 header.intro {
-  background-color: #172554; /* navy blue */
-  color: #D1D5DB;
-  border: 6px solid #bd5b00; /* amber frame */
-  padding: 40px 0;
+  background-color: transparent; /* navy blue */
+
 }
 
 header.into h1 {
@@ -55,6 +53,7 @@ header.intro .content-wrap {
   background-size: cover;
 }
 
+/*
 .main-nav {
   position: sticky;
   top: 0;
@@ -62,9 +61,22 @@ header.intro .content-wrap {
   text-align: center;
   justify-content: center;
   align-items: center;
-   background-color: #ffffff; 
+  display: flex;
+  background-color: #ffffff; 
   padding: 12px;
   border-bottom: 4px solid #bd5b00;
+}
+*/
+
+.main-nav {
+  width: 100%;
+  background-color: #172554;
+  border-bottom: 4px solid #bd5b00;
+  text-align: center;
+}
+
+.main-nav a {
+  color: white;
 }
 
 #mahdi-photo {
@@ -149,6 +161,8 @@ margin-top: 0;
   text-transform: uppercase;
   font-size: 0.75rem;
 }
+
+
 
 .intro{
     padding: 60px 10%;
