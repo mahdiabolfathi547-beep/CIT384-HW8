@@ -36,10 +36,13 @@ header.intro p {
 }
 
 header.intro .content-wrap {
-  max-width: 950px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px 50px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*Horizontally centered*/
 }
 
 .alegreya-uniquifier {
@@ -121,7 +124,7 @@ body{
 }
 
 .column-wide {
-  width: 70;
+  width: 75%;
   float: left;
   min-height: 225px;
   text-align: center;
