@@ -124,7 +124,7 @@ body{
 }
 
 .column-wide {
-  width: 75%;
+  width: 125%;
   float: left;
   min-height: 225px;
   text-align: center;
