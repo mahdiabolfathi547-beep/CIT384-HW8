@@ -102,8 +102,8 @@ header.intro .content-wrap {
 }
 
 #mahdi-photo {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #bd5b00;
@@ -128,15 +128,19 @@ body{
 }
 
 
-.main-nav ul {
-  display: table-header-group;
-  justify-content: center;
+.main-nav ul, .menu {
+  display: flex;
   flex-direction: row;
-
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style:none;
+  padding:  0;
+  margin: 0;
 }
 
-.main-nav li {
-  display:flex;
+.main-nav li ,menu li{
+  display:block;
   justify-content: center;
   gap: 15px;
   margin: 0;              
