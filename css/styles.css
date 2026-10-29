@@ -217,10 +217,10 @@ header h1,h2 {
 margin-top: 0;
 }
 
-.main-nav a {
+.main-nav a, menu a{
   display: inline-block;
-  margin: 0 12px;
-  color: #d6295b;
+  margin: 0 15px;
+  color: #ff3366;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
