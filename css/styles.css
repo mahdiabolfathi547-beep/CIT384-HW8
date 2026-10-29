@@ -129,10 +129,13 @@ body{
 
 
 .main-nav ul {
-  display:flexbox;
+  display: table-header-group;
   flex-direction: row;
+}
+
+.main-nav li {
+  display:flex;
   justify-content: center;
-  align-items: center;
   gap: 15px;
   margin: 0;              
   padding: 0;             
@@ -140,9 +143,6 @@ body{
   justify-content: center;
 }
 
-.main-nav li {
-  display: inline-block;
-}
 
 .column-narrow {
   width: 30%;
