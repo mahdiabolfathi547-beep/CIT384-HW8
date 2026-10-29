@@ -127,6 +127,13 @@ body{
   text-align: center;
 }
 
+.header-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
 
 .main-nav ul, .menu {
   display: flex;
