@@ -264,6 +264,17 @@ margin-top: 0;
 
 }
 
+.work-experience {
+  background:
+    linear-gradient(
+      rgba (43, 45, 72, 0.81)
+      rgba (43, 45, 72, 0.81)
+    ),
+    url("../images/IT_img.jpg") center/cover;
+    color: navy;
+  border-top: 10px solid #3cb371;
+}
+
 .education {
   padding: 50px 10%;
   background-color: #f3f4f6
