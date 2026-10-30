@@ -1,0 +1,28 @@
+/* 
+Color Palette:
+Amber: #bd5b00
+Navy Blue: #172554
+Light Gray: #F3F4F6
+Dark Gray: #F3F4F6
+light gray: #f3f4f6
+White: FFFFFF
+*/
+
+/* border box fix */
+.menu{
+  display: flex;
+  flex-direction:row;
+  gap:30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li{
+  display: inline-block; 
+  margin-right: 25px;
+}
+
+.menu a {
+  text-decoration: none; /* Removes underlines from */
+}
