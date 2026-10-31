@@ -277,9 +277,11 @@ margin-top: 0;
       rgba(23,37,84,0.48) 65%,
       rgba(23,37,84,0.90) 100%
     ),
-    url("../images/IT_img.jpg") center/cover;
-    color: navy;
-  border-top: 10px solid #3cb371;
+    url("../images/IT_img.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .education {
