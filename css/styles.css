@@ -233,7 +233,18 @@ header h1,h2 {
 margin-top: 0;
 }
 
-.IT_Image
+.IT_Image::after {
+  content: "";
+  position:"";
+  inset:0;
+  pointer-events: none;
+  background: linear-gradient(
+   to right,
+   rgba(23,37,84,0.55),
+   transparent 35%
+  )
+}
+
 .main-nav a, menu a{
   display: inline-block;
   height: 42px;
@@ -287,19 +298,7 @@ margin-top: 0;
   object-fit: cover;
   object-position: center;
 
-  /* Adds a subtle dark fade along the left edge */
-.it-image::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(
-    to right,
-    rgba(23, 37, 84, 0.55),
-    transparent 35%
-  );
-}
-
+  .IT
   /*Fade the top and bottom edges into the page*/
   -web-mask-image: linear-gradient(
     to bottom,
