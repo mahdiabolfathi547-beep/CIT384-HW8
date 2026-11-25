@@ -303,6 +303,11 @@ mask-image:linear-gradient(
 }
 
 .work-experience {
+
+  width: min(1100px,calc(100vm-32px));
+  height : 300px;
+  margin: 0 auto;
+  
   background:
     linear-gradient(
       to right,
