@@ -266,7 +266,9 @@ margin-top: 0;
 .work-experience {
   padding: 50 px 10%;
   background-color: #FFFFFF;
-
+ width: min(1100px, calc(100vw - 32px));
+  height: 300px;
+  margin: 0 auto;
 }
 
 .IT_Image{
@@ -303,16 +305,23 @@ mask-image:linear-gradient(
 .work-experience {
   background:
     linear-gradient(
-      rgba (23, 37, 84, 0.98) 0%,
-      rgba (23, 37, 84, 0.82) 35%,
-      rgba(23,37,84,0.48) 65%,
-      rgba(23,37,84,0.90) 100%
+      to right,
+      rgba(23, 37, 84, 0.75) 0%,
+      rgba(23, 37, 84, 0.15) 30%,
+      rgba(23,37,84,0.15) 70%,
+      rgba(23,37,84,0.75) 100%
     ),
     url("../images/IT_img.jpg");
     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.work-content {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 24px;
 }
 
 .education {
